@@ -32,7 +32,7 @@ object ClassVsObject {
   }
 
   class Grid {
-    var points: List = List()
+    var points: List[Point] = List()
     def add(p: Point) {
       points ::= p
     }
