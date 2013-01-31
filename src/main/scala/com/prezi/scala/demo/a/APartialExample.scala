@@ -3,7 +3,7 @@ package com.prezi.scala.demo.a
 /**
  * @author Pierre Ingmansson (pierre.ingmansson@prezi.com)
  */
-object Partial extends App {
+object APartialExample extends App {
   def adder(m: Int, n: Int) = m + n
 
   val add = adder(_, _)

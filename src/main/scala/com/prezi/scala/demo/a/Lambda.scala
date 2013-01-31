@@ -3,7 +3,7 @@ package com.prezi.scala.demo.a
 /**
  * @author Pierre Ingmansson (pierre.ingmansson@prezi.com)
  */
-object AnonymousFunction extends App {
+object Lambda extends App {
   val list = List(1, 2, 3, 4)
 
   val result1 = list.reduceLeft( (x, y) => x + y )
